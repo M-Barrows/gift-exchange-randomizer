@@ -13,7 +13,7 @@ services:
             context: .
             dockerfile: dockerfile
         # Name the container
-        container_name: pynance
+        container_name: secret-gift-pairing-generator
         # Mount the current directory as a volume in the container
         volumes:
             - .:/code

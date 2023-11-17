@@ -9,8 +9,6 @@ def make_navbar():
         children=[
             dbc.DropdownMenu(
                 children=[
-                    dbc.DropdownMenuItem("Tools", header=True),
-                    dbc.DropdownMenuItem("CD Valuation", href=dash.page_registry['pages.cd-valuation']['relative_path']),
                     dbc.DropdownMenuItem("Settings", header=True),
                     dbc.Col(ThemeSwitchAIO(aio_id="theme", themes=[LIGHT_THEME_URL, DARK_THEME_URL],icons={"left" :"fa fa-moon", "right" :"fa fa-sun"}),class_name='ms-3'),
                     dbc.DropdownMenuItem("Made With ❤️ By:", header=True),
@@ -21,7 +19,7 @@ def make_navbar():
                 label="More",
             ),
         ],
-        brand="PyNance",
+        brand="Secret Gift Pairing Generator",
         brand_href="/",
         color="primary",
         dark=True,

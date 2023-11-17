@@ -15,8 +15,8 @@ dbc_css = (
 )
 
 
-app = dash.Dash(__name__, external_stylesheets=[LIGHT_THEME_URL,dbc_css], use_pages=True,url_base_pathname="/apps/pynance/")
-app.title = 'Py-Nance'
+app = dash.Dash(__name__, external_stylesheets=[LIGHT_THEME_URL,dbc_css], use_pages=True,url_base_pathname="/apps/secret-gift-pairing-generator/")
+app.title = 'Secret Gift Pairing Generator'
 
 app.layout = dbc.Container([
     make_navbar(),
